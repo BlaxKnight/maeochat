@@ -1,5 +1,7 @@
 # maeochat - Simple Web Chat
 
+![GitHub repo size](https://img.shields.io/github/repo-size/BlaxKnight/maeochat)
+
 ## The Repository
 
 This repository is made by Mohammad Amin & Witchie, we develop this website
