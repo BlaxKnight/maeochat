@@ -15,10 +15,10 @@ but what we want is more than this and we try our best. Thank You :)
 In order to use this project, your os should have the requirements softwares and
 libraries.
 
-+ apache2 ( optional but not recommended for production use )
-+ php 8.3
-+ mysql ( sqlite, ...)
-+ browser ( firefox, chrome, ...)
+- apache2 ( optional but not recommended for production use )
+- php 8.3
+- mysql ( sqlite, ...)
+- browser ( firefox, chrome, ...)
 
 ### Installation
 
@@ -42,7 +42,8 @@ composer install
 
 4. Config .env file to connect to your database.
 
-5. If everything alright just make sure generate laravel key and also migrate it
+5. If everything alright just make sure generate laravel key and
+   also migrate it.
 
 ```
 php artisan key:generate
@@ -51,6 +52,7 @@ php artisan optimize
 ```
 
 6. Finally run vite & laravel server or use apache2, etc as your web server
+   separately.
 
 ```
 npm run dev
@@ -60,3 +62,7 @@ php artisan serve
 > [!NOTE]
 > It is better to use `npm run build` for better security of your css and js
 > files then run `npm run dev`.
+
+### Liecense
+
+Licensed under the MIT license.
