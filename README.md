@@ -1,6 +1,7 @@
 # maeochat - Simple Web Chat
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/BlaxKnight/maeochat)
+[![GitHub stars](https://img.shields.io/github/stars/BlaxKnight/maeochat.svg)](https://github.com/BlaxKnight/maeochat/stargazers)
 
 ## The Repository
 
