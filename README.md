@@ -14,15 +14,15 @@ but what we want is more than this and we try our best. Thank You :)
 
 1. First of all clone the repository in your computer.
 
-`git clone https://github.com/BlaxKnight/maeochat.git`
+```git clone https://github.com/BlaxKnight/maeochat.git```
 
 2. Next go to repository folder then install dependencies packages with npm.
 
-`npm install`
+```npm install```
 
 3. After that install vendor packages.
 
-`composer install`
+```composer install```
 
 4. Config .env file to connect to your database.
 
@@ -36,10 +36,10 @@ php artisan optimize
 
 6. Finally run vite & laravel server or use apache2, etc as your web server
 
-``
+```
 npm run dev
 php artisan serve
-``
+```
 
 > [!NOTE]
 > It is better to use `npm run build` for better security of your css and js files
