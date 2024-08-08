@@ -16,7 +16,7 @@ In order to use this project, your os should have the requirements softwares and
 libraries.
 
 + apache2 ( optional but not recommended for production use )
-+ php
++ php 8.3
 + mysql ( sqlite, ...)
 + browser ( firefox, chrome, ...)
 
