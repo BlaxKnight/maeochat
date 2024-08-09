@@ -14,4 +14,16 @@ class AppController extends Controller
   {
     return view('pages.app');
   }
+  public function register()
+  {
+    return view('pages.register');
+  }
+  public function login()
+  {
+    return view('pages.login');
+  }
+  public function about()
+  {
+    return view('pages.about');
+  }
 }
