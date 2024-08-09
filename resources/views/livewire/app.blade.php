@@ -2,7 +2,7 @@
   <div class="flex flex-col justify-between w-96 h-[90vh] border rounded-2xl">
     @include('partials.app.header')
     <section class="grow flex flex-col justify-between">
-      <div class="grow shadow-inner bg-slate-100 bg-[url('/public/images/chat-bg.svg')] bg-no-repeat bg-center bg-cover"></div>
+      <div class="relative grow shadow-inner bg-slate-100 before:content-[' '] before:bg-[url('/public/images/chat-bg.svg')] before:w-full before:h-full before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:opacity-60"></div>
       <div class="flex justify-between items-center pe-3 hover:shadow transition-all">
         <input type="text"
           class="grow border-0 border-transparent focus:border-transparent focus:ring-0 caret-orange-700">
