@@ -8,10 +8,11 @@
     </header>
     <section id="chat" class="grow shadow-inner bg-slate-100"></section>
     <section id="send-message">
-      <div class="flex justify-between items-center pe-3">
-        <input type="text" class="grow border-0 outline-none">
-        <i class="fa-duotone fa-solid fa-paper-plane-top fa-2xl"
-          style="--fa-primary-color: rgb(241 245 249); --fa-secondary-color: rgb(249 115 22); --fa-secondary-opacity: 0.9"></i>
+      <div class="flex justify-between items-center pe-3 hover:shadow transition-all">
+        <input type="text"
+          class="grow border-0 border-transparent focus:border-transparent focus:ring-0 caret-orange-700">
+        <i class="fa-duotone fa-solid fa-paper-plane-top fa-xl"
+          style="--fa-primary-color: rgba(0, 0, 0, 0); --fa-secondary-color: #ea580c; --fa-secondary-opacity: 0.9"></i>
       </div>
     </section>
     <footer id="version" class="p-2 text-center border-t text-slate-700">
