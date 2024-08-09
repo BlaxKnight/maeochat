@@ -1,5 +1,8 @@
 # maeochat - Simple Web Chat
 
+![GitHub repo size](https://img.shields.io/github/repo-size/BlaxKnight/maeochat)
+[![GitHub stars](https://img.shields.io/github/stars/BlaxKnight/maeochat.svg)](https://github.com/BlaxKnight/maeochat/stargazers)
+
 ## The Repository
 
 This repository is made by Mohammad Amin & Witchie, we develop this website
@@ -62,6 +65,11 @@ php artisan serve
 > [!NOTE]
 > It is better to use `npm run build` for better security of your css and js
 > files then run `npm run dev`.
+
+### Contributing
+
+If you have any idea to help our open-source project, simply create new pull
+request and we will review it.
 
 ### Liecense
 
