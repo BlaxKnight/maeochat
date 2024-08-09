@@ -66,6 +66,11 @@ php artisan serve
 > It is better to use `npm run build` for better security of your css and js
 > files then run `npm run dev`.
 
+### Contributing
+
+If you have any idea to help our open-source project, simply create new pull
+request and we will review it.
+
 ### Liecense
 
 Licensed under the MIT license.
