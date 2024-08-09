@@ -23,4 +23,5 @@
       </a>
     </footer>
   </div>
+  <button wire:click='click'>click me</button>
 </main>
