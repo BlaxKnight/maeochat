@@ -4,8 +4,12 @@ import path from "path";
 
 export default defineConfig({
   server: {
+    cors:{
+      origin: "http://localhost",
+      credentials: true
+    },
     hmr: {
-      host: "localhost",
+      host: "localhost", // Public IP
     },
   },
   plugins: [
