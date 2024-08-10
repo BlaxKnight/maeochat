@@ -3,7 +3,7 @@
     @include('partials.app.header')
     <section class="grow flex flex-col justify-between">
       <div
-        class="flex flex-col justify-end relative grow shadow-inner bg-orange-50 before:content-[' '] before:bg-[url('/images/chat-bg.svg')] before:w-full before:h-full before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:opacity-30 z-0 before:z-10">
+        class="flex flex-col justify-end relative grow shadow-inner bg-orange-50 before:content-[' '] before:bg-[url('/public/images/chat-bg.svg')] before:w-full before:h-full before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:opacity-30 z-0 before:z-10">
         <div class="flex flex-col-reverse scroll-smooth snap-y overflow-y-auto h-[calc(75vh)]">
           <ul class="relative z-20 p-3 flex flex-col gap-4 font-medium">
             <li class="flex items-end gap-1 snap-end">
