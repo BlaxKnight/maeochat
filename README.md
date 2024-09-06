@@ -62,6 +62,13 @@ npm run dev
 php artisan serve
 ```
 
+> [!WARNING]
+> Don't forget about to set permissions for your directory
+
+> [!CAUTION]
+> Never leave permissions for users in important directories
+> this will cause security problems
+
 > [!NOTE]
 > It is better to use `npm run build` for better security of your css and js
 > files then run `npm run dev`.
