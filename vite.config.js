@@ -5,8 +5,8 @@ import path from "path";
 export default defineConfig({
   server: {
     https: {
-      key: '/etc/letsencrypt/live/amanfromspace.ir/privkey.pem',
-      cert: '/etc/letsencrypt/live/amanfromspace.ir/fullchain.pem',
+      key: '/etc/letsencrypt/live/DOMAIN/privkey.pem',
+      cert: '/etc/letsencrypt/live/DOMAIN/fullchain.pem',
     },
     hmr: {
       host: "localhost",
