@@ -4,8 +4,12 @@ import path from "path";
 
 export default defineConfig({
   server: {
+    https: {
+      key: '/etc/letsencrypt/live/amanfromspace.ir/privkey.pem',
+      cert: '/etc/letsencrypt/live/amanfromspace.ir/fullchain.pem',
+    },
     hmr: {
-      host: "localhost", // Public IP
+      host: "localhost",
     },
   },
   plugins: [
